@@ -55,10 +55,17 @@ section {
 
 .logo img{
     position: absolute;
-    top: 10px;
-    left: 20rem;
+    top: 1vh;
+    left: 20vh;
+    height: 95%;
     width: 5%;
     cursor: default;
+}
+
+@media (max-width: 800px) {
+    .logo img {
+        display: none;
+    }
 }
 
 .header .logo:nth-child(2) {
@@ -114,14 +121,15 @@ section {
 }
 
 #theme-switch {
-    height: 50px;
-    width: 50px;
+    height: 5vh;
+    width: 5vh;
     padding: 0;
     border-radius: 50%;
     background-color: var(--bg-color);
     position: absolute;
-    right: 50px;
+    margin-left: 5vh;
     cursor: pointer;
+    
 }
 
 #theme-switch i:first-child {
@@ -130,6 +138,9 @@ section {
 
 #theme-switch i:last-child {
     color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .lightmode #theme-switch i:last-child {
