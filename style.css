@@ -126,17 +126,7 @@ section {
     display: none;
 }
 
-#theme-switch {
-    height: 5vh;
-    width: 5vh;
-    padding: 0;
-    border-radius: 50%;
-    background-color: var(--bg-color);
-    position: absolute;
-    margin-left: 5vh;
-    cursor: pointer;
-    
-}
+z
 
 #theme-switch i:first-child {
     display: none;
