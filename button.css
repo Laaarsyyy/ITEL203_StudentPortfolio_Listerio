@@ -5,10 +5,6 @@
     transition: 0.5s;
 }
 
-input {
-    display: none;
-}
-
 .display {
     right: 10px;
     top: -3px;
